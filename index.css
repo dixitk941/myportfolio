@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Home Section */
+.home {
+    background: url('Picsart_22-10-07_22-39-15-085-01.jpeg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0; /* Increased size of the Home section */
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+.home h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.home p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+/* About Section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* About Section */
+.about {
+    background: url('motion-background.jpg') center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding to control the height of the about section */
+}
+
+.about-content {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background to enhance text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about {
+        padding: 80px 0;
+    }
+}
+/* Portfolio Section */
+.portfolio {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.portfolio-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-details {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.portfolio-image {
+    width: 300px;
+    height: 300px;
+    background: url('design-desk.jpeg') center/cover;
+    border-radius: 8px;
+}
+
+/* Social Links Section */
+.social {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home h1 {
+        font-size: 2.5em;
+    }
+
+    .home p {
+        font-size: 1.2em;
+    }
+
+    .about-content,
+    .portfolio-content {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .portfolio-image {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .about-details,
+    .portfolio-details {
+        padding: 0;
+    }
+}
